@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'BloodFont';
+    src: url('mybleedingscars_ot.otf') format('opentype'); /* Match your actual filename here */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* 1. Add the gradient here */
+    /* Transitions from deep dark red (#730000) to a more vibrant red (#ff0000) */
+    background: linear-gradient(135deg, #730000 0%, #ff0000 100%);
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    /* 2. Apply the blood font to the heading */
+    font-family: 'BloodFont', serif;
+    color: #000000;
+    text-align: center;
+    font-size: 10rem; /* Larger size often looks better for blood fonts */
+}
